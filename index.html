@@ -141,7 +141,7 @@
       const videoBox = document.getElementById("videoBox");
       videoBox.style.display = "block";
       videoBox.innerHTML = `
-        <video id="birthdayVideo" width="360" controls autoplay>
+        <video id="birthdayVideo" width="360" controls playsinline>
           <source src="/birthday.mov" type="video/mp4">
           Trình duyệt của bạn không hỗ trợ video.
         </video>
@@ -184,4 +184,5 @@
   </script>
 </body>
 </html>
+
 
